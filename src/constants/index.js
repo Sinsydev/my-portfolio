@@ -1,25 +1,20 @@
 import {
-  c,
-  python,
-  java,
-  cpp,
+  js,
+  firebase,
+  tailwind2,
+  react,
   javascript,
   html,
   css,
   reactjs,
   tailwind,
-  nodejs,
   git,
-  edunet,
-  weatherpedia,
-  termpw,
-  payloadmaster,
-  threejs,
-  mhft,
-  sketcher,
-  mathwork,
-  CompileVortex,
-  eduskill,
+  almadina,
+  agileengineering,
+  almadina2,
+  bbluxury2,
+  agile ,
+  bbluxury,
 } from "../assets";
 
 export const navLinks = [
@@ -38,10 +33,10 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C", icon: c },
-  { title: "C++", icon: cpp },
-  { title: "Python", icon: python },
-  { title: "Java", icon: java },
+  { title: "js", icon: js },
+  { title: "react", icon: react },
+  { title: "firebase", icon: firebase },
+  { title: "tailwind", icon: tailwind2 },
 ];
 
 export const technologies = [
@@ -50,121 +45,88 @@ export const technologies = [
   { name: "JavaScript", icon: javascript },
   { name: "Rect JS", icon: reactjs },
   { name: "Tailwind CSS", icon: tailwind },
-  { name: "Node JS", icon: nodejs },
-  { name: "Three JS", icon: threejs },
   { name: "git", icon: git },
 ];
 
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
-    icon: eduskill,
+    title: "Web Developer Freelance",
+    company_name: "BB Luxury Apartment & Housing Estates",
+    icon: bbluxury,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "Jul 2025 - Aug 2025",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      " Elegant Digital Presence: Designed and developed a modern website that highlights the luxury brand, showcasing apartments and housing estates with high-quality visuals and detailed property information.",
+      " Seamless User Journey: Focused on creating a smooth and responsive experience, making it easy for potential clients to explore available properties and get in touch.",
+      "Real-World Value: This project is deeply important to me because it helps a real estate business build credibility online, attract investors, and connect with clients in a highly competitive market."
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
-    icon: mathwork,
+    title: "Frontend Developer Freelance",
+    company_name: "Agile Engineering & Technical Services",
+    icon: agile,
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    date: " 2nd May 2025 - 27 May 2025",
     points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
+      " Embraced Agile Workflow: Structured the project in sprints,breaking down complex tasks into smaller, achievable goals and iterating based on feedback to ensure steady progress.",
+      " Focused on Real Impact: Built every feature with business value in mind, aligning the solution with real user needs and client objectives.",
+      " Personal Growth & Importance: This project was a turning point for me — it sharpened my problem-solving skills, improved adaptability, and proved how Agile practices can transform ideas into impactful results.",
     ],
   },
   {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
+    title: "Web Developer Intern|Contract",
+    company_name: "Kt Almadina Motors International Limited",
+    icon: almadina,
     iconBg: "#161329",
-    date: "June 2023 - July 2023",
+    date: "June 2025 - July 2025",
     points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
+      " Modernized Car Sales Online: Designed and developed a dynamic dealership website that showcases available cars with detailed specs, images, and pricing, making the buying process more transparent and engaging.",
+      " User-Friendly Experience: Focused on intuitive navigation and responsive design so customers can easily explore cars, whether on desktop or mobile.",
+      " Business Impact & Growth: This project is important to me because it goes beyond code — it helps a real dealership expand its reach, attract new customers, and modernize how people in Northern Nigeria interact with car sales online.",
     ],
   },
 ];
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "Agile engineering & Technical Services",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      " A web-based platform built for Agile Engineering & Technical Services, designed to showcase their services, streamline client communication, and strengthen their online presence.",
     tags: [
       { name: "Javascript", color: "blue-text-gradient" },
-      { name: "HTML", color: "green-text-gradient" },
-      { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+      { name: "React", color: "green-text-gradient" },
+      { name: "tailwindv4", color: "pink-text-gradient" },
+      { name: "Firebase | postman", color: "yellow-text-gradient" },
     ],
-    image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    image: agileengineering,
+    live_demo_link: "https://agileengineeringandtechnicalservices.netlify.app",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "Kt almadina Motors International Limited",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      " Dynamic dealership website that allows customers to explore available cars with detailed specifications, pricing, and images in a modern, responsive interface.",
     tags: [
       { name: "HTML", color: "blue-text-gradient" },
-      { name: "css", color: "green-text-gradient" },
+      { name: "React", color: "green-text-gradient" },
+      { name: "Tailwindv4", color: "green-text-gradient" },
+       { name: "Vite", color: "green-text-gradient" },
       { name: "Javascript", color: "pink-text-gradient" },
     ],
-    image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
+    image: almadina2,
+    live_demo_link: "https://kt-almadina-international-ltd.netlify.app",
   },
   {
-    name: "Mental Health Fitness Tracker",
+    name: "BB luxury Apartment & Housing Estates",
     description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
+      " Modern real estate website that showcases luxury apartments and housing estates with detailed property listings, pricing, and high-quality visuals.",
     tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
-    ],
-    image: mhft,
-    source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
-  },
-  {
-    name: "PayloadMaster",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "shell", color: "blue-text-gradient" },
-    ],
-    image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
-  },
-  {
-    name: "CompileVortex",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
+      { name: "Html5", color: "blue-text-gradient" },
+      { name: "Tailwindv4", color: "blue-text-gradient" },
       { name: "Javascript", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "HTML", color: "pink-text-gradient" },
+      { name: "React.js", color: "blue-text-gradient" },
+      { name: "Vite | Netlify", color: "blue-text-gradient" },
     ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
-  },
-  {
-    name: "Sketcher",
-    description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
-    tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
-    ],
-
-    image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
+    image: bbluxury2,
+    live_demo_link: "https://bbluxuryapartmentandhousingestates.netlify.app",
   },
 ];

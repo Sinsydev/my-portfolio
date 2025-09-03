@@ -8,10 +8,11 @@ const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
 
-  const toggleResume = () => {
-    const resumeUrl = '/Resume.pdf';
-    window.open(resumeUrl);
-  };
+ const toggleResume = () => {
+  const resumeUrl = "https://drive.google.com/file/d/1iCNN098qV2jQKCmkEQBZS1B_1-7Ku3cl/view?usp=sharing";
+  window.open(resumeUrl, "_blank", "noopener,noreferrer");
+};
+
 
   useEffect(() => {
     if (toggle) {
@@ -61,10 +62,10 @@ const Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+             
             <p className="text-white text-[20px] font-bold cursor-pointer flex">
-              LOHIT&nbsp;
-              <span className="sm:block hidden">KOLLURI</span>
+              SINSY&nbsp;
+              <span className="sm:block hidden">DEV</span>
             </p>
           </Link>
           {renderNavLinks(false)}

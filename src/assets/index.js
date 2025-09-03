@@ -1,31 +1,26 @@
 // Import company logos
-import mathwork from "./company/mathwork.png";
-import edunet from "./company/edunet.png";
-import eduskill from "./company/eduskill.png";
+import agile  from "./company/agile-engineering.png";
+import almadina from "./company/almadina-motors.png";
+import bbluxury from "./company/bbluxury.png";
 
 // Import tech stack images
-import python from "./tech-stack/python.png";
-import c from "./tech-stack/c.png";
-import cpp from "./tech-stack/cpp.png";
-import java from "./tech-stack/java.png";
+import firebase from "./tech-stack/firebase.png";
+import js from "./tech-stack/js.png";
+import react from "./tech-stack/react.png";
+import tailwind2 from "./tech-stack/tailwind2.png";
 
 // Import project images
-import weatherpedia from "./projects/WeatherPedia.png";
-import termpw from "./projects/termpw.png";
-import payloadmaster from "./projects/payloadmaster.png";
-import mhft from "./projects/mhft.png";
-import sketcher from "./projects/sketcher.png";
-import CompileVortex from "./projects/CompileVortex.png";
+import agileengineering from "./projects/agile-engineering.png";
+import almadina2 from "./projects/almadina-motors.png";
+import bbluxury2 from "./projects/bbluxury.png";
 
 // Import tech logos
 import css from "./tech/css.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.png";
 
 // Import common assets
 import logo from "./logo.svg";
@@ -34,29 +29,24 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 export {
-  mathwork,
-  edunet,
-  python,
-  c,
-  cpp,
-  java,
+  agile,
+  almadina,
+  firebase,
+  js,
+  react,
+  tailwind2,
   github,
   css,
   git,
   html,
   javascript,
-  nodejs,
   reactjs,
   tailwind,
-  threejs,
-  weatherpedia,
-  termpw,
-  payloadmaster,
-  mhft,
-  sketcher,
-  CompileVortex,
+  agileengineering,
+  almadina2,
+  bbluxury2,
   logo,
   menu,
   close,
-  eduskill,
+  bbluxury,
 };

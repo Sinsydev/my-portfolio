@@ -40,11 +40,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Computer Science student at SRM University and multilingual speaker with a passion
-        for ethical hacking, artificial intelligence, and neural language processing. I am looking
-        to join a company that values innovation, collaboration, and continuous learning and am
-        confident that my enthusiasm and drive will help me succeed in any role that leverages my
-        passion for technology.
+         I’m a passionate Frontend Developer dedicated to transforming ideas into interactive, scalable web experiences. I craft modern, user-friendly solutions that don’t just look good — they work smarter. With a strong focus on turning complex problems into simple, beautiful interfaces, I bring creativity, functionality, and performance together in every project. From concept to code, I design, develop, and deliver digital products that empower businesses, engage users, and create meaningful impact. My goal is to build the future of the web, one project at a time.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -59,3 +55,10 @@ const About = () => {
 const WrappedAbout = SectionWrapper(About, 'about');
 
 export default WrappedAbout;
+
+
+
+
+
+
+ 

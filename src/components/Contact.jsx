@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+ import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -67,21 +67,21 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_r2i0by4",
-        "template_mf5x3bh",
+        "service_jiu606g", 
+        "template_2ikigio", 
         {
           from_name: form.name,
-          to_name: "Lohit Kolluri",
+          to_name: "Sinsydev", 
           from_email: form.email,
-          to_email: "lohitkolluri@gmail.com",
+          to_email: "sinsyfrontenddeveloper@gmail.com",
           message: form.message,
         },
-        "p-gXzzyvEhPaJ0XA-"
+        "8dSMaqM7lY7NRzE1_"
       )
       .then(
         () => {
           setLoading(false);
-          setConfirmation("Thank you! I will get back to you as soon as possible.");
+          setConfirmation("✅ Thank you! I will get back to you as soon as possible.");
 
           setForm({
             name: "",
@@ -93,13 +93,16 @@ const Contact = () => {
       .catch((error) => {
         setLoading(false);
         console.error(error);
-        setConfirmation("Something went wrong. Please try again. :/");
+        setConfirmation("❌ Something went wrong. Please try again.");
       });
   };
 
   return (
     <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
-      <motion.div variants={slideIn("left", "tween", 0.2, 1)} className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
+      <motion.div
+        variants={slideIn("left", "tween", 0.2, 1)}
+        className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
+      >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact Me</h3>
 
@@ -109,7 +112,7 @@ const Contact = () => {
             name="name"
             value={form.name}
             onChange={handleChange}
-            placeholder="Insert Your name here..."
+            placeholder="Insert your name here..."
             type="text"
           />
           {nameError && <span className="text-red-500">{nameError}</span>}
@@ -129,7 +132,7 @@ const Contact = () => {
             name="message"
             value={form.message}
             onChange={handleChange}
-            placeholder="What you want to say...?"
+            placeholder="What do you want to say?"
             type="text"
           />
 
@@ -143,7 +146,10 @@ const Contact = () => {
         </form>
       </motion.div>
 
-      <motion.div variants={slideIn("right", "tween", 0.2, 1)} className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]">
+      <motion.div
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+      >
         <EarthCanvas />
       </motion.div>
     </div>
@@ -151,3 +157,4 @@ const Contact = () => {
 };
 
 export default SectionWrapper(Contact, "contact");
+
