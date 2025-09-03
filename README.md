@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 
 ![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Portfolio%20Website%20V2&fontSize=80&animation=fadeIn&fontAlignY=35)
@@ -135,3 +136,6 @@ MIT License © [Lohit Kolluri](LICENSE)
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 
 </div>
+=======
+# my-portfolio
+>>>>>>> c817bfe4dca7e463b84e8824b5ec2af5add464b2
