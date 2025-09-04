@@ -49,36 +49,7 @@ mindmap
 ## 🚀 Demo
 
 Experience the live portfolio at [https://portfolio-lohit.vercel.app](https://portfolio-lohit.vercel.app)
-
-## 🛠️ Installation
-
-1️⃣ Clone the repository:
-
-```bash
-git clone https://github.com/lohitkolluri/Portfolio-Website
-```
-
-2️⃣ Navigate to project directory:
-
-```bash
-cd Portfolio-Website
-```
-
-3️⃣ Install dependencies:
-
-```bash
-npm install
-```
-
-4️⃣ Run development server:
-
-```bash
-npm run dev
-```
-
-5️⃣ Open in browser:
-
-- Visit [http://localhost:3000](http://localhost:3000)
+ 
 
 ## 💻 Tech Stack
 
@@ -95,10 +66,6 @@ npm run dev
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" />
       <br>Tailwind CSS
-    </td>
-      <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=threejs" width="48" height="48" alt="Three.js" />
-      <br>Three.js
     </td>
   </tr>
 </table>
@@ -131,7 +98,7 @@ npm run dev
 
 <div align="center">
 
-MIT License © [Lohit Kolluri](LICENSE)
+MIT License © [Sinsydev](LICENSE)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 
