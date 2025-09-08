@@ -64,7 +64,7 @@ const Navbar = () => {
           >
              
             <p className="text-white text-[20px] font-bold cursor-pointer flex">
-              SINSY&nbsp;
+              ISMAIL&nbsp;
               <span className="sm:block hidden">DEV</span>
             </p>
           </Link>
