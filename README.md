@@ -42,7 +42,7 @@ mindmap
 
 ## 🚀 Demo
 
-Experience the live portfolio at [https://portfolio-lohit.vercel.app](https://portfolio-lohit.vercel.app)
+Experience the live portfolio at  https://ismail-portfolio-website.netlify.app/
  
 
 ## 💻 Tech Stack
