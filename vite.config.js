@@ -1,19 +1,25 @@
- // vite.config.js
-import { defineConfig } from "vite";
+ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { visualizer } from "rollup-plugin-visualizer";
+import path from "path";
 
 export default defineConfig({
   plugins: [
     react(),
     visualizer({
-      filename: "dist/stats.html", 
-      template: "treemap",         
+      filename: "dist/stats.html",
+      template: "treemap",
       gzipSize: true,
       brotliSize: true,
-      open: false,                 
+      open: false,
     }),
   ],
+  resolve: {
+    alias: {
+      react: path.resolve(__dirname, "node_modules/react"),
+      "react-dom": path.resolve(__dirname, "node_modules/react-dom"),
+    },
+  },
   build: {
     chunkSizeWarningLimit: 1000,
     rollupOptions: {
@@ -39,6 +45,7 @@ export default defineConfig({
     },
   },
 });
+
 
 
 
