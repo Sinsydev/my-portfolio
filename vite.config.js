@@ -4,6 +4,7 @@ import { visualizer } from "rollup-plugin-visualizer";
 import path from "path";
 
 export default defineConfig({
+  base: "./", 
   plugins: [
     react(),
     visualizer({
@@ -25,7 +26,10 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks(id) {
-          if (id.includes("node_modules/react") || id.includes("node_modules/react-dom")) {
+          if (
+            id.includes("node_modules/react") ||
+            id.includes("node_modules/react-dom")
+          ) {
             return "react";
           }
           if (id.includes("node_modules/axios")) {
@@ -34,7 +38,10 @@ export default defineConfig({
           if (id.includes("node_modules/react-router")) {
             return "react-router";
           }
-          if (id.includes("node_modules/redux") || id.includes("node_modules/@reduxjs")) {
+          if (
+            id.includes("node_modules/redux") ||
+            id.includes("node_modules/@reduxjs")
+          ) {
             return "redux";
           }
           if (id.includes("node_modules")) {
