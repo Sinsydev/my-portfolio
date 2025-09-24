@@ -21,7 +21,7 @@ const Hero = () => {
             I am passionate
             <Typewriter 
               options={{
-                strings: ["Frontend Developer", "React and Tailwind Specialist", "Freelancer"],
+                strings: ["Frontend Developer", "React,Typescript and Tailwind Specialist", "Freelancer"],
                 autoStart: true,
                 loop: true,
                 loopCount: Infinity,
