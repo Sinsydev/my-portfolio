@@ -1,9 +1,11 @@
- import { defineConfig } from "vite";
+import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { visualizer } from "rollup-plugin-visualizer";
+import { viteStaticCopy } from "vite-plugin-static-copy";
 import path from "path";
 
 export default defineConfig({
+  base: "./",
   plugins: [
     react(),
     visualizer({
@@ -12,6 +14,14 @@ export default defineConfig({
       gzipSize: true,
       brotliSize: true,
       open: false,
+    }),
+    viteStaticCopy({
+      targets: [
+        {
+          src: "_redirects",
+          dest: ".", 
+        },
+      ],
     }),
   ],
   resolve: {
@@ -45,7 +55,4 @@ export default defineConfig({
     },
   },
 });
-
-
-
 
