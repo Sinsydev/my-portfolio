@@ -1,10 +1,11 @@
-import { defineConfig } from "vite";
+ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { visualizer } from "rollup-plugin-visualizer";
 import path from "path";
 
 export default defineConfig({
-  base: "./", 
+  // 👇 base set to "./" so Netlify loads JS/CSS correctly
+  base: "./",
   plugins: [
     react(),
     visualizer({
@@ -51,5 +52,11 @@ export default defineConfig({
       },
     },
   },
+  
+  server: {
+    port: 3000,
+    open: true,
+  },
 });
+
 
