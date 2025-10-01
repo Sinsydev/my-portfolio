@@ -1,7 +1,7 @@
  import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-import { ExternalLink } from "lucide-react"; // ✅ only using Live Demo icon
+import { ExternalLink } from "lucide-react"; 
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
