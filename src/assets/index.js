@@ -4,10 +4,10 @@ import almadina from "./company/almadina-motors.png";
 import bbluxury from "./company/bbluxury.png";
 
 // Import tech stack images
-import typescript from "./tech-stack/typescript.png"
-import js from "./tech-stack/js.png";
-import react from "./tech-stack/react.png";
-import tailwind2 from "./tech-stack/tailwind2.png";
+import typescript from "./tech-stack/typescript.webp"
+import js from "./tech-stack/js.webp";
+import react from "./tech-stack/react.webp";
+import tailwind2 from "./tech-stack/tailwind2.webp";
 
 // Import project images
 import agileengineering from "./projects/agile-engineering.png";
@@ -35,7 +35,7 @@ export {
   js,
   react,
   typescript,
-   typescript2,
+  typescript2,
   tailwind2,
   github,
   css,
