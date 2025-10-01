@@ -1,7 +1,7 @@
 // Import company logos
-import agile  from "./company/agile-engineering.png";
-import almadina from "./company/almadina-motors.png";
-import bbluxury from "./company/bbluxury.png";
+import agile  from "./company/agile-engineering.webp";
+import almadina from "./company/almadina-motors.webp";
+import bbluxury from "./company/bbluxury.webp";
 
 // Import tech stack images
 import typescript from "./tech-stack/typescript.webp"
