@@ -4,7 +4,7 @@ import almadina from "./company/almadina-motors.png";
 import bbluxury from "./company/bbluxury.png";
 
 // Import tech stack images
-import firebase from "./tech-stack/firebase.png";
+import typescript from "./tech-stack/typescript.png"
 import js from "./tech-stack/js.png";
 import react from "./tech-stack/react.png";
 import tailwind2 from "./tech-stack/tailwind2.png";
@@ -21,6 +21,7 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
+import typescript2 from "./tech/typescript2.png";
 
 // Import common assets
 import logo from "./logo.svg";
@@ -31,9 +32,10 @@ import close from "./close.svg";
 export {
   agile,
   almadina,
-  firebase,
   js,
   react,
+  typescript,
+   typescript2,
   tailwind2,
   github,
   css,

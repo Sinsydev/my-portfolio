@@ -14,6 +14,9 @@ export default defineConfig({
       open: false,
     }),
   ],
+  resolve: {
+    dedupe: ["react", "react-dom"], // 👈 ensures only one React instance
+  },
   build: {
     chunkSizeWarningLimit: 1000,
     rollupOptions: {

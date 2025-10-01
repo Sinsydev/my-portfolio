@@ -1,7 +1,8 @@
 import {
   js,
-  firebase,
   tailwind2,
+  typescript,
+  typescript2,
   react,
   javascript,
   html,
@@ -35,12 +36,13 @@ export const navLinks = [
 export const services = [
   { title: "js", icon: js },
   { title: "react", icon: react },
-  { title: "firebase", icon: firebase },
+  { title: "typescript", icon: typescript },
   { title: "tailwind", icon: tailwind2 },
 ];
 
 export const technologies = [
   { name: "HTML 5", icon: html },
+  { name: "Typescript", icon: typescript2 },
   { name: "CSS 3", icon: css },
   { name: "JavaScript", icon: javascript },
   { name: "Rect JS", icon: reactjs },
@@ -94,6 +96,7 @@ export const projects = [
       " A web-based platform built for Agile Engineering & Technical Services, designed to showcase their services, streamline client communication, and strengthen their online presence.",
     tags: [
       { name: "Javascript", color: "blue-text-gradient" },
+      { name: "Typescript", color: "pink-text-gradient" },
       { name: "React", color: "green-text-gradient" },
       { name: "tailwindv4", color: "pink-text-gradient" },
       { name: "Firebase | postman", color: "yellow-text-gradient" },
@@ -108,8 +111,9 @@ export const projects = [
     tags: [
       { name: "HTML", color: "blue-text-gradient" },
       { name: "React", color: "green-text-gradient" },
+      { name: "Typescript", color: "pink-text-gradient" },
       { name: "Tailwindv4", color: "green-text-gradient" },
-       { name: "Vite", color: "green-text-gradient" },
+      { name: "Vite", color: "green-text-gradient" },
       { name: "Javascript", color: "pink-text-gradient" },
     ],
     image: almadina2,
@@ -123,6 +127,7 @@ export const projects = [
       { name: "Html5", color: "blue-text-gradient" },
       { name: "Tailwindv4", color: "blue-text-gradient" },
       { name: "Javascript", color: "blue-text-gradient" },
+      { name: "Typescript", color: "pink-text-gradient" },
       { name: "React.js", color: "blue-text-gradient" },
       { name: "Vite | Netlify", color: "blue-text-gradient" },
     ],
