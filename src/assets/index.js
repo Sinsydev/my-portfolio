@@ -15,13 +15,13 @@ import almadina2 from "./projects/almadina-motors.png";
 import bbluxury2 from "./projects/bbluxury.png";
 
 // Import tech logos
-import css from "./tech/css.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import reactjs from "./tech/reactjs.png";
-import tailwind from "./tech/tailwind.png";
-import typescript2 from "./tech/typescript2.png";
+import css from "./tech/css.webp";
+import git from "./tech/git.webp";
+import html from "./tech/html.webp";
+import javascript from "./tech/javascript.webp";
+import reactjs from "./tech/reactjs.webp";
+import tailwind from "./tech/tailwind.webp";
+import typescript2 from "./tech/typescript2.webp";
 
 // Import common assets
 import logo from "./logo.svg";
