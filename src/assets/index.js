@@ -10,9 +10,9 @@ import react from "./tech-stack/react.webp";
 import tailwind2 from "./tech-stack/tailwind2.webp";
 
 // Import project images
-import agileengineering from "./projects/agile-engineering.png";
-import almadina2 from "./projects/almadina-motors.png";
-import bbluxury2 from "./projects/bbluxury.png";
+import agileengineering from "./projects/agile-engineering.webp";
+import almadina2 from "./projects/almadina-motors.webp";
+import bbluxury2 from "./projects/bbluxury.webp";
 
 // Import tech logos
 import css from "./tech/css.webp";
