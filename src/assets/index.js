@@ -25,7 +25,7 @@ import typescript2 from "./tech/typescript2.webp";
 
 // Import common assets
 import logo from "./logo.svg";
-import github from "./github.png";
+import github from "./github.webp";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
