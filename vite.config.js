@@ -1,7 +1,4 @@
- import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-import { visualizer } from "rollup-plugin-visualizer";
-
+ // ...existing code...
 export default defineConfig({
   base: "/my-portfolio/", 
   plugins: [
@@ -15,7 +12,10 @@ export default defineConfig({
     }),
   ],
   resolve: {
-    dedupe: ["react", "react-dom"], // 👈 ensures only one React instance
+    dedupe: ["react", "react-dom"],
+  },
+  optimizeDeps: {
+    include: ["react", "react-dom"],
   },
   build: {
     chunkSizeWarningLimit: 1000,
@@ -42,5 +42,3 @@ export default defineConfig({
     },
   },
 });
-
-
