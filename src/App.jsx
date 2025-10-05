@@ -4,12 +4,7 @@ import { About, Contact, Experience, Hero, Navbar, StarsCanvas, Tech, Works } fr
 
 const App = () => {
   return (
-    <HashRouter
-      future={{
-        v7_startTransition: true,
-        v7_relativeSplatPath: true,
-      }}
-    >
+    <HashRouter>
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
