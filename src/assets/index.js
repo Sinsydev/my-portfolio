@@ -2,6 +2,7 @@
 import agile  from "./company/agile-engineering.webp";
 import almadina from "./company/almadina-motors.webp";
 import bbluxury from "./company/bbluxury.webp";
+import smarthomeenergy from "./company/smarthomeenergy.webp"
 
 // Import tech stack images
 import typescript from "./tech-stack/typescript.webp"
@@ -13,6 +14,7 @@ import tailwind2 from "./tech-stack/tailwind2.webp";
 import agileengineering from "./projects/agile-engineering.webp";
 import almadina2 from "./projects/almadina-motors.webp";
 import bbluxury2 from "./projects/bbluxury.webp";
+import smarthomeenergy2 from "./projects/smarthomeenergy.webp";
 
 // Import tech logos
 import css from "./tech/css.webp";
@@ -37,6 +39,7 @@ export {
   typescript,
   typescript2,
   tailwind2,
+  smarthomeenergy,
   github,
   css,
   git,
@@ -47,6 +50,7 @@ export {
   agileengineering,
   almadina2,
   bbluxury2,
+  smarthomeenergy2,
   logo,
   menu,
   close,
