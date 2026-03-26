@@ -12,8 +12,10 @@ import {
   git,
   almadina,
   agileengineering,
+  smarthomeenergy,
   almadina2,
   bbluxury2,
+  smarthomeenergy2,
   agile ,
   bbluxury,
 } from "../assets";
@@ -51,6 +53,18 @@ export const technologies = [
 ];
 
 export const experiences = [
+   {
+    title: "Software Engineer",
+    company_name: "Smart Home Energy and Monitoring Platform",
+    icon: smarthomeenergy,
+    iconBg: "#161329",
+    date: "Sep 2025 - Dec 2025",
+    points: [
+      "Intelligent Energy Management: Designed and developed a smart home platform that monitors and manages energy usage in real-time, helping users track consumption, reduce waste, and make informed decisions.",
+      "Seamless & Interactive Experience:Built a responsive and user-friendly dashboard that allows homeowners to easily control devices, view analytics, and receive instant updates on energy performance.",
+      "Data-Driven Insights:Implemented analytics and visualization tools to provide meaningful insights into usage patterns, helping users optimize their energy consumption over time.",
+    ],
+  },
   {
     title: "Web Developer Freelance",
     company_name: "BB Luxury Apartment & Housing Estates",
@@ -104,6 +118,20 @@ export const projects = [
     image: agileengineering,
     live_demo_link: "https://agileengineeringandtechnicalservices.netlify.app",
   },
+   {
+    name: "Smart Home Energy and Monitoring Platform",
+    description:
+      "Control your home energy with intelligence and ease. Monitor usage, reduce waste, and stay powered—anytime, anywhere.",
+    tags: [
+      { name: "Javascript", color: "blue-text-gradient" },
+      { name: "Typescript", color: "pink-text-gradient" },
+      { name: "React", color: "green-text-gradient" },
+      { name: "tailwindv4", color: "pink-text-gradient" },
+      { name: "Firebase | postman", color: "yellow-text-gradient" },
+    ],
+    image:smarthomeenergy2,
+    live_demo_link: "https://smarthomeenergyplatform.netlify.app/",
+  },
   {
     name: "Kt almadina Motors International Limited",
     description:
@@ -132,6 +160,6 @@ export const projects = [
       { name: "Vite | Netlify", color: "blue-text-gradient" },
     ],
     image: bbluxury2,
-    live_demo_link: "https://bbluxuryapartmentandhousingestates.netlify.app",
+    live_demo_link: "https://bbluxuryapartment.netlify.app/",
   },
 ];
