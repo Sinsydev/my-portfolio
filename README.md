@@ -42,54 +42,9 @@ mindmap
 
 ## 🚀 Demo
 
-Experience the live portfolio at  https://ismail-portfolio-website.netlify.app/
+Experience the live portfolio at  https://sinsydev.github.io/my-portfolio/
  
-
-## 💻 Tech Stack
-
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
-      <br>React
-    </td>
-      <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="Vite" />
-      <br>Vite
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" />
-      <br>Tailwind CSS
-    </td>
-  </tr>
-</table>
-
-## ⚡ Core Features
-
-- 📱 Responsive Design
-
-  - Mobile-first approach
-  - Seamless experience across all devices
-  - Adaptive layouts and components
-
-- 🎯 Dynamic Content
-
-  - Interactive project showcase
-  - Engaging experience section
-  - Animated skill representations
-
-- 🎨 Modern UI/UX
-
-  - Smooth Framer Motion animations
-  - Intuitive navigation
-  - Clean and professional design
-
-- ✉️ Email Integration
-  - Contact form using EmailJS
-
-## 📄 License
-
-<div align="center">
+ 
 
 MIT License © [Sinsydev](LICENSE)
 
